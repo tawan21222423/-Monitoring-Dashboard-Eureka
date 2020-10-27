@@ -1,14 +1,9 @@
-package TheMheeDemo1.service4;
+package com.microservices.servicediscovery;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
-
-/**
- * Hello world!
- *
- */
 @SpringBootApplication
 @EnableDiscoveryClient
 public class App {
@@ -16,5 +11,3 @@ public class App {
         SpringApplication.run(App.class, args);
     }
 }
-
-
