@@ -3,8 +3,7 @@ server:
     
 spring:
     application:
-        name: service3
-    profiles:
+        name: employeeservice
         active: default
     cloud:
         config:

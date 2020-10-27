@@ -3,7 +3,7 @@ server:
     
 spring:
     application:
-        name: service5
+        name: securityservice
     profiles:
         active: default
     cloud:

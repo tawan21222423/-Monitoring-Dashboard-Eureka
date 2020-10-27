@@ -3,7 +3,7 @@ server:
     
 spring:
     application:
-        name: service4
+        name: schoolservice
     profiles:
         active: default
     cloud:
